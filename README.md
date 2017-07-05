@@ -1,6 +1,6 @@
 # react-redux-express
 
-## Lesson - 1
+## Lesson - 1 ( server index.html )
 ```
 npm init
 mkdir server
