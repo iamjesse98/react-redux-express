@@ -29,9 +29,12 @@ npm install --save express
 
 *in package.json*
 ```json
+...
 "scripts": {
-  "server": "babel-node server/index.js"
+  "server": "babel-node server/index.js",
+  ...
 }
+...
 ```
 *configuring babel*
 ### *.babelrc*
@@ -90,7 +93,10 @@ npm install save-dev nodemon
 
 *in package.json*
 ```json
+...
 "scripts": {
   "server": "nodemon --watch server --exec babel-node -- server/index.js"
+  ...
 }
+...
 ```
