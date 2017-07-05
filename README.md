@@ -31,3 +31,18 @@ npm install --save express
   "server": "babel-node server/index.js"
 }
 ```
+*configuring babel*
+*.babelrc*
+```json
+{
+  "presets": [ "es2015" ]
+}
+```
+
+```
+npm install --save-dev babel-preset-es2015
+```
+
+```
+npm run server
+```
