@@ -100,3 +100,29 @@ npm install save-dev nodemon
 }
 ...
 ```
+
+## Lesson - 2 ( Render React Component )
+### client / index.js
+```js
+import React from 'react'
+import { render } from 'react-dom'
+import App from './components/App'
+
+render(<>, document.getElementById('app'))
+```
+### server / index.html
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Red Dice</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+  </head>
+  
+  <body>
+  
+    <div id="app"></div>
+  
+  </body>
+
+</html>
