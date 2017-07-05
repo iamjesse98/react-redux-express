@@ -4,6 +4,7 @@
 ```
 npm init
 mkdir server
+cd server
 touch index.js
 ```
 ### server/index.js
@@ -21,6 +22,7 @@ app.listen(3000, () => console.log('Running on port 3000'))
 ```
 
 ```
+cd .. # exit from server directory
 npm install --save-dev babel-cli
 npm install --save express
 ```
