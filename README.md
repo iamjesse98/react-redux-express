@@ -6,3 +6,4 @@ npm init
 mkdir server
 touch index.js
 ```
+### index.js
