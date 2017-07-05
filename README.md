@@ -108,9 +108,10 @@ import React from 'react'
 import { render } from 'react-dom'
 import App from './components/App'
 
-render(<>, document.getElementById('app'))
+render(<App />, document.getElementById('app'))
 ```
 ### server / index.html
+```html
 <html>
 
   <head>
@@ -126,3 +127,4 @@ render(<>, document.getElementById('app'))
   </body>
 
 </html>
+```
