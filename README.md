@@ -70,14 +70,25 @@ app.listen(3000, () => console.log('Running on port 3000'))
   <head>
     <meta charset="UTF-8">
     <title>Red Dice</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport"
+    <meta content="width=device-width, initial-scale=1" name="viewport">
   </head>
   
   <body>
   
-  <h1>Hello World!</h1>
+    <h1>Hello World!</h1>
   
   </body>
 
 </html>
+```
+
+```
+npm install save-dev nodemon
+```
+
+*in package.json*
+```json
+"scripts": {
+  "server": "nodemon --watch server --exec babel-node -- server/index.js"
+}
 ```
