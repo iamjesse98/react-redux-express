@@ -7,3 +7,8 @@ mkdir server
 touch index.js
 ```
 ### index.js
+```js
+import express from 'express'
+
+let app = express()
+```
