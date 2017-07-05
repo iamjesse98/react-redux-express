@@ -19,3 +19,15 @@ app.get('/*', ( req, res ) => {
 
 app.listen(3000, () => console.log('Running on port 3000'))
 ```
+
+```
+npm install --save-dev babel-cli
+npm install --save express
+```
+
+*in package.json*
+```json
+"scripts": {
+  "server": "babel-node server/index.js"
+}
+```
